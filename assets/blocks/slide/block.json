@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "tripzzy/slide",
+  "title": "Slide",
+  "category": "tripzzy",
+  "icon": "<svg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M29 6H3V26H29V6Z' stroke='#FF6811' fill='none' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/><path d='M23 13L25 16' stroke='#FF6811' stroke-linecap='round' stroke-linejoin='round'/><path d='M23 19L25 16' stroke='#FF6811' stroke-linecap='round' stroke-linejoin='round'/><path d='M9 19L7 16' stroke='#FF6811' stroke-linecap='round' stroke-linejoin='round'/><path d='M9 13L7 16' stroke='#FF6811' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+  "parent": [
+    "tripzzy/slider"
+  ],
+  "description": "Single Slide block to be used with Slider block",
+  "supports": {
+    "anchor": true,
+    "reusable": false,
+    "html": false,
+    "inserter": false,
+    "color": {
+      "gradients": true,
+      "link": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "spacing": {
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "padding": true
+      }
+    },
+    "__experimentalLayout": true
+  },
+  "textdomain": "default",
+  "editorScript": "file:./index.js"
+}
